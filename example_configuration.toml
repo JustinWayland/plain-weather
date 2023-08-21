@@ -1,9 +1,8 @@
 title = "Example plain_weather configuration file"
 
-[api]
-key = "Put your key here."
-
-[location]
+[weather]
+key = "Put your weather API key here."
+# Location
 # Options ordered in terms of what will get used. Higher options override
 # those below them.
 # Latitude and longitude
